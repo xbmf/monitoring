@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://aiven.io",
+    "interval": 10,
+    "regexp_rules": ["<meta charSet"]
+  },
+  {
+    "url": "http://eyupci.com",
+    "interval": 30,
+    "regexp_rules": []
+  }
+]
+
+

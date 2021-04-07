@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 120
+target-version = ['py37']
+exclude = '''
+
+(
+  /(
+      \.git
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+  )/
+)
+'''
+[tool.pytest.ini_options]
+flake8-max-line-length = 120
+addopts = '--flake8'
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
